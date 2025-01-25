@@ -18,8 +18,8 @@ Step 1: Open Script Editor
 Open Script Editor on your Mac.
 Copy and paste the code below into a new document:
 
-
-```on open (theFiles)
+```
+on open (theFiles)
     set slicerList to {"BambuStudio", "Creality Print", "OrcaSlicer", "PrusaSlicer"}
     set chosenSlicer to choose from list slicerList with prompt "Select a slicer to open the 3MF file:" default items {"BambuStudio"}
     
@@ -49,7 +49,8 @@ Copy and paste the code below into a new document:
             display dialog "No matching slicer found." buttons {"OK"}
         end if
     end if
-end open```
+end open
+```
 
 
 Step 2: Save as Application
