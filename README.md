@@ -17,3 +17,53 @@ Setup Instructions
 Step 1: Open Script Editor
 Open Script Editor on your Mac.
 Copy and paste the code below into a new document:
+
+
+on open (theFiles)
+    set slicerList to {"BambuStudio", "Creality Print", "OrcaSlicer", "PrusaSlicer"}
+    set chosenSlicer to choose from list slicerList with prompt "Select a slicer to open the 3MF file:" default items {"BambuStudio"}
+    
+    if chosenSlicer is false then
+        return
+    else
+        set chosenSlicer to item 1 of chosenSlicer
+        set slicerPaths to {¬
+            {"OrcaSlicer", "/Applications/OrcaSlicer.app"}, ¬
+            {"PrusaSlicer", "/Applications/Original Prusa Drivers/PrusaSlicer.app"}, ¬
+            {"BambuStudio", "/Applications/BambuStudio.app"}, ¬
+            {"Creality Print", "/Applications/Creality Print.app"}}
+        
+        set slicerApp to ""
+        repeat with slicer in slicerPaths
+            if item 1 of slicer is chosenSlicer then
+                set slicerApp to item 2 of slicer
+                exit repeat
+            end if
+        end repeat
+        
+        if slicerApp is not "" then
+            repeat with fileToOpen in theFiles
+                do shell script "open -a " & quoted form of slicerApp & " " & quoted form of POSIX path of fileToOpen
+            end repeat
+        else
+            display dialog "No matching slicer found." buttons {"OK"}
+        end if
+    end if
+end open
+
+
+Step 2: Save as Application
+Go to File > Export in Script Editor.
+Set the format to Application.
+Save the application to your Applications folder.
+Step 3: Associate File Types
+Right-click any .3mf or .stl file and select Get Info.
+In the "Open with" section, select your saved application.
+Click Change All to apply the setting to all files of the same type.
+Customization
+
+You can modify the slicerList and slicerPaths in the code to:
+
+Add new slicers by including their names and file paths.
+Change the default slicer by updating the default items list.
+
