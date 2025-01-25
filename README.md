@@ -58,7 +58,7 @@ Go to **File > Export** in Script Editor.
 Set the format to Application.
 Save the application to your Applications folder.
 
-##Step 3: Associate File Types
+## Step 3: Associate File Types
 Right-click any `.3mf` or `.stl` file and select Get Info.
 In the "Open with" section, select your saved application.
 Click Change All to apply the setting to all files of the same type.
