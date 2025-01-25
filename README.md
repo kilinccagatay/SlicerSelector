@@ -88,7 +88,7 @@ You can use **Arrow keys**, **Enter** and **Esc key** to control the **SlicerSel
 
 # Watch the Video Tutorial
 
-[![Watch the video](https://img.youtube.com/vi/8X2VNFbOyAQ/0.jpg)](https://youtu.be/8X2VNFbOyAQ)
+[![Watch the video](https://github.com/user-attachments/assets/18731423-b0a0-4f76-9058-18447a398909)](https://youtu.be/8X2VNFbOyAQ)
 
 ## Click the thumbnail above to watch the full video on YouTube.
 
