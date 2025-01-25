@@ -84,6 +84,15 @@ Choose a slicer, and it will automatically open the file in the selected applica
 
 You can use **Arrow keys**, **Enter** and **Esc key** to control the **SlicerSelector**. 
 
+
+## Watch the Video Tutorial
+
+[![Watch the video](https://img.youtube.com/vi/8X2VNFbOyAQ/0.jpg)](https://youtu.be/8X2VNFbOyAQ)
+
+Click the thumbnail above to watch the full video on YouTube.
+
+
+
 Important Notes
 
 Ensure that the paths to your slicer applications are correct.
