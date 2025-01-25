@@ -67,3 +67,24 @@ You can modify the slicerList and slicerPaths in the code to:
 Add new slicers by including their names and file paths.
 Change the default slicer by updating the default items list.
 
+
+Example
+
+When you open a .3mf or .stl file, you’ll see a prompt like this:
+
+Select a slicer to open the 3MF file:
+- BambuStudio  
+- Creality Print  
+- OrcaSlicer  
+- PrusaSlicer
+Choose a slicer, and it will automatically open the file in the selected application.
+
+Important Notes
+
+Ensure that the paths to your slicer applications are correct.
+Every character in the script is crucial—double-check for typos if something doesn’t work.
+If you encounter issues, feel free to open an issue on this repository or ask for help.
+License
+
+This project is licensed under the MIT License. Feel free to use, modify, and share it.
+
