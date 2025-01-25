@@ -88,7 +88,8 @@ You can use **Arrow keys**, **Enter** and **Esc key** to control the **SlicerSel
 ## Watch the Video Tutorial
 
 <a href="https://youtu.be/8X2VNFbOyAQ" target="_blank">
-  <img src="https://img.youtube.com/vi/8X2VNFbOyAQ/0.jpg" alt="Watch the video tutorial" width="640" height="360" style="border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://img.youtube.com/vi/8X2VNFbOyAQ/0.jpg" alt="Watch the video tutorial" width="640" height="360" style="position: relative; display: block; border: 1px solid #ccc; border-radius: 8px; box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/YouTube_play_button_icon_%282013-2017%29.svg" alt="Play button" width="100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 </a>
 
 Click the image above to watch the video on YouTube.
