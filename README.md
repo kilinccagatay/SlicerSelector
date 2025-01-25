@@ -1,4 +1,4 @@
-3D Printing Slicer Selector for macOS
+## 3D Printing Slicer Selector for macOS
 
 This is a simple AppleScript that allows you to choose your preferred slicer (e.g., Bambu Studio, PrusaSlicer, OrcaSlicer, or Creality Print) when opening .3mf or .stl files on macOS. Instead of manually opening slicer applications, this script provides a convenient way to select the slicer at the time of file opening.
 
