@@ -59,15 +59,19 @@ Set the format to Application.
 Save the application to your Applications folder.
 
 ## Step 3: Associate File Types
-Right-click any `.3mf` or `.stl` file and select Get Info.
-In the "Open with" section, select your saved application.
-Click Change All to apply the setting to all files of the same type.
-Customization
+Right-click any `.3mf` or `.stl` file and select **Get Info**.
 
-You can modify the slicerList and slicerPaths in the code to:
+In the **"Open with"** section, select your saved application.
+
+Click **Change All** to apply the setting to all files of the same type.
+
+
+## Customization
+
+You can modify the **slicerList** and **slicerPath**s in the code to:
 
 Add new slicers by including their names and file paths.
-Change the default slicer by updating the default items list.
+Change the default slicer by updating the **default item** list.
 
 
 Example
@@ -77,6 +81,8 @@ When you open a .3mf or .stl file, you’ll see a prompt like this:
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/126beea4-b458-4049-a876-98899e12b7f6" />
 
 Choose a slicer, and it will automatically open the file in the selected application.
+
+You can use **Arrow keys**, **Enter** and **Esc key** to control the **SlicerSelector**. 
 
 Important Notes
 
