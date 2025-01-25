@@ -14,11 +14,11 @@ Open Your Files: When you double-click a .3mf or .stl file, the script will prom
 Seamless Execution: The selected slicer automatically opens with your chosen file.
 Setup Instructions
 
-Step 1: Open Script Editor
-Open Script Editor on your Mac.
+## Step 1: Open Script Editor
+Open **Script Editor** on your Mac.
 Copy and paste the code below into a new document:
 
-```
+```applescript
 on open (theFiles)
     set slicerList to {"BambuStudio", "Creality Print", "OrcaSlicer", "PrusaSlicer"}
     set chosenSlicer to choose from list slicerList with prompt "Select a slicer to open the 3MF file:" default items {"BambuStudio"}
@@ -53,12 +53,13 @@ end open
 ```
 
 
-Step 2: Save as Application
-Go to File > Export in Script Editor.
+## Step 2: Save as Application
+Go to **File > Export** in Script Editor.
 Set the format to Application.
 Save the application to your Applications folder.
-Step 3: Associate File Types
-Right-click any .3mf or .stl file and select Get Info.
+
+##Step 3: Associate File Types
+Right-click any `.3mf` or `.stl` file and select Get Info.
 In the "Open with" section, select your saved application.
 Click Change All to apply the setting to all files of the same type.
 Customization
