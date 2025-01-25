@@ -72,11 +72,8 @@ Example
 
 When you open a .3mf or .stl file, you’ll see a prompt like this:
 
-Select a slicer to open the 3MF file:
-- BambuStudio  
-- Creality Print  
-- OrcaSlicer  
-- PrusaSlicer
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/126beea4-b458-4049-a876-98899e12b7f6" />
+
 Choose a slicer, and it will automatically open the file in the selected application.
 
 Important Notes
