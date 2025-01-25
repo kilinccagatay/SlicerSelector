@@ -56,22 +56,23 @@ end open
 ## Step 2: Save as Application
 Go to **File > Export** in Script Editor.
 Set the format to Application.
-Save the application to your Applications folder.
+Save the application to your `Applications` folder.
 
 ## Step 3: Associate File Types
-Right-click any `.3mf` or `.stl` file and select **Get Info**.
+* Right-click any `.3mf` or `.stl` file and select **Get Info**.
 
-In the **"Open with"** section, select your saved application.
+* In the **"Open with"** section, select your saved application.
 
-Click **Change All** to apply the setting to all files of the same type.
+* Click **Change All** to apply the setting to all files of the same type.
 
 
 ## Customization
 
-You can modify the **slicerList** and **slicerPath**s in the code to:
+* You can modify the **slicerList** and **slicerPath**s in the code to:
 
-Add new slicers by including their names and file paths.
-Change the default slicer by updating the **default item** list.
+* Add new slicers by including their names and file paths.
+  
+* Change the default slicer by updating the **default item** list.
 
 
 Example
@@ -85,7 +86,7 @@ Choose a slicer, and it will automatically open the file in the selected applica
 You can use **Arrow keys**, **Enter** and **Esc key** to control the **SlicerSelector**. 
 
 
-## Watch the Video Tutorial
+# Watch the Video Tutorial
 
 [![Watch the video](https://img.youtube.com/vi/8X2VNFbOyAQ/0.jpg)](https://youtu.be/8X2VNFbOyAQ)
 
